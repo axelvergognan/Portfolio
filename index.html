@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Axel Vergognan</title>
+    </head>
+    <body>
+        <nav class="nav-main">
+            <div class="container-nav-main">
+                <div class="logo-nav-main">
+                    <a class="a-logo-nav-main" href="">Axel Vergognan</a>
+                </div>
+                <div class="menu-nav-main">
+                    <div class="button-menu-nav-main">
+                        <a class="a-menu-nav-main" href="#1">Présentation</a>
+                    </div>
+                    <div class="button-menu-nav-main">
+                        <a class="a-menu-nav-main" href="#2">Projets</a>
+                    </div>
+                    <div class="button-menu-nav-main">
+                        <a class="a-menu-nav-main" href="#3">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-left">
+                <h1 class="title-hero-left">Axel Vergognan</h1>
+                <p class="description-hero-left">Étudiant développeur logiciel embarqué</p>
+            </div>
+            <div class="hero-right">
+                <img src="img-hero.png" class="img-av">
+            </div>
+        </div>
+        <div class="main">
+            <section class="section-1" id="1">
+                <div class="container-section-1">
+                    <h2 class="title-section">Présentation</h2>
+                    <div class="left-container-section">
+                        <div class="box-self-info">
+                            <div class="container-pp">
+                                <img class="img-pp" src="pp.png">
+                            </div>
+                            <ul class="ul-info">
+                                <label class="label-ul-info">Prénom, Nom</label>
+                                <h4 class="title-ul-info">Axel Vergognan</h4>
+                                <label class="label-ul-info">Diplômes</label>
+                                <li class="li-ul-info"><div class="date-info">2020 - 2022</div>&ensp;DUT Informatique</li>
+                                <li class="li-ul-info"><div class="date-info">2018 - 2020</div>&ensp;Baccalauréat STI2D SIN</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right-container-section">
+                        <div class="box-objectif">
+                            <h3 class="title-box">Mon objectif</h3>
+                            <p class="text-right-container-section">Passionné par les technologies et  la programmation informatique plus particulièrement
+                            , j'ai pour objectif de poursuivre mes études en me spécialisant dans le développement de logiciel embarqué
+                            </p>
+                        </div>
+                        <div class="box-competences">
+                            <h4 class="title-box">Mes compétences</h4>
+                            <ul class="ul-competences">
+                                <h5 class="title-cat-competence"><i class="fas fa-globe"></i> Web</h5>
+                                <label class="label-ul-competence">HTML</label>
+                                <li class="li-ul-competence">
+                                    <div class="percent-line" style="--value: 100%;"></div>
+                                </li>
+                                <label class="label-ul-competence">CSS</label>
+                                <li class="li-ul-competence">
+                                    <div class="percent-line" style="--value: 95%;"></div>
+                                </li>
+                                <label class="label-ul-competence">PHP</label>
+                                <li class="li-ul-competence">
+                                    <div class="percent-line" style="--value: 90%;"></div>
+                                </li>
+                                <label class="label-ul-competence">JavaScript</label>
+                                <li class="li-ul-competence">
+                                    <div class="percent-line" style="--value: 40%;"></div>
+                                </li>
+                                <h5 class="title-cat-competence"><i class="fas fa-cogs"></i> Software</h5>
+                                <label class="label-ul-competence">JAVA</label>
+                                <li class="li-ul-competence">
+                                    <div class="percent-line" style="--value: 80%;"></div>
+                                </li>
+                                <label class="label-ul-competence">C++</label>
+                                <li class="li-ul-competence">
+                                    <div class="percent-line" style="--value: 70%;"></div>
+                                </li>
+                                <label class="label-ul-competence">Python</label>
+                                <li class="li-ul-competence">
+                                    <div class="percent-line" style="--value: 50%;"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-2" id="2">
+                <div class="container-section-2">
+                    <h2 class="title-section">Projets</h2>
+                    <div class="table-projects">
+                        <div class="box-project">
+                            <img class="img-project" src="img-cooking.png">
+                        </div>
+                        <div class="box-project">
+                            <img class="img-project" src="img-huffman.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-3" id="3">
+                <div class="container-section-3">
+                    <h2 class="title-section">Contact</h2>
+                    <div class="box-form">
+                        <h4 class="title-box">Envoyez moi un mail</h4>
+                        <form action="mailto:axel.vergognan@gmail.com" method="post" enctype="multipart/form-data" class="contact-form">
+                            <div class="form-line">
+                                <input type="text" name="firstname" placeholder="prénom" required>
+                                <input type="text" name="name" placeholder="nom" required>
+                            </div>
+                            <div class="form-line">
+                                <input type="mail" name="mail" placeholder="adresse e-mail" required>    
+                            </div>
+                            <div class="form-line">
+                                <textarea type="text" name="message" rows="4" cols="50" placeholder="écrivez votre message...." required></textarea>
+                            </div>
+                            <div class="form-line">
+                                <input type="submit" name="contact" value="Envoyer">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
