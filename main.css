@@ -73,11 +73,12 @@ body{
 }
 
 .hero{
-    height: 90%;
     display: flex;
     flex-wrap: wrap;
     background-color: white;
     padding-top: 12vh;
+    padding-bottom: 12vh;
+    height: 90%;
 }
 
 .hero-left, .hero-right{
@@ -104,10 +105,6 @@ body{
 
 .img-av{
     width: 80%;
-}
-
-.main{
-
 }
 
 .section-1, .section-2, .section-3{
@@ -292,7 +289,6 @@ body{
 }
 
 .box-form{
-    width: 90%;
     border-radius: 28px;
     background-color: white;
     border: 1px solid hsla(0,0%,51.4%,.16);

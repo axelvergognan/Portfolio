@@ -1,0 +1,51 @@
+@media screen and (max-width: 130ch) {
+
+    .hero-right{
+        display: none;
+    }
+
+    .hero-left, .hero-right, .box-project{
+        width: 100%;
+    }
+
+    .box-project{
+        margin-bottom: 7vh;
+    }
+
+    .container-section-1, .table-projects{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-container-section, .right-container-section{
+        width: 100%;
+    }
+
+    .left-container-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .form-line{
+        flex-wrap: nowrap;
+    }
+
+    .container-nav-main{
+        justify-content: space-between;
+    }
+
+    .logo-nav-main{
+        width: auto;
+    }
+
+    .menu-nav-main{
+        width: 70%;
+    }
+
+}
