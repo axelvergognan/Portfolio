@@ -1,5 +1,13 @@
 @media screen and (max-width: 130ch) {
 
+    .title-hero-left{
+        font-size: 90px;
+    }
+
+    .title-section{
+        font-size: 50px;
+    }
+
     .hero-right{
         display: none;
     }
@@ -46,6 +54,14 @@
 
     .menu-nav-main{
         width: 70%;
+    }
+
+    .a-logo-nav-main{
+        font-size: 28px;
+    }
+
+    .a-menu-nav-main{
+        font-size: 26px;
     }
 
 }
